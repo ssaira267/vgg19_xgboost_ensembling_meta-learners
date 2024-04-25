@@ -7,6 +7,9 @@ The XGBoost model trained using the standard wireline log achieved high accuracy
 <p align="center">
     <img width="300"  alt="ensemble" src="https://github.com/ssaira267/vgg19_xgboost_ensembling_meta-learners/assets/57672761/de8c753f-64dc-43f8-88ad-e42365d72861">
 </p>
+<p align="center">
+Ensembling, or stacking classifier proposed as part of multi-modal learning.
+</p>
 
 The model achieved an overall accuracy of 87% and 83% depending on the datasets used. The ensemble models do not perform better when compared to the XGBoost model trained only on tabular wireline log data. This is likely due to the poor performance of the XGBoost image models trained during single modal learning, which presented challenges in integrating multimodal data when one model is considerably weaker. 
 
